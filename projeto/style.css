@@ -1,0 +1,90 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variáveis */
+:root {
+  --cor00: #fafafa;
+  --cor01: #11527C;
+  --cor02: #0B6F6F;
+  --cor03: #2A2F42;
+  --cor04: #8F8A90;
+  --cor05: #757575;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Assets básicos */
+body {
+  font: 400 1rem "DM Sans", sans-serif;
+  background-color: var(--cor00);
+  color: var(--cor05);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font: 700 1.87rem "Poppins", sans-serif;
+  color: var(--cor01);
+  -webkit-font-smoothing: auto;
+}
+
+.button {
+  background-color: var(--cor01);
+  color: var(--cor04);
+}
+
+
+/* Layout */
+#header {
+  border-bottom: 1px solid var(--cor03);
+}
+
+nav {
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.logo {
+  font: 700 1.31rem "Poppins", sans-serif;
+  color: var(--cor01);
+  font-weight: bold;
+}
+
+.logo span {
+  color: var(--cor04);
+}
+
+.container {
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+
+/* Home */
+#home .container {
+  margin: 0;
+}
